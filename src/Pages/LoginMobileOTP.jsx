@@ -79,7 +79,7 @@ const LoginMobileOTP = () => {
 
                 <Box display="grid" paddingTop={"30px"} justifyContent="center">
                     <HStack>
-                        <PinInput >
+                        <PinInput autoFocus="true" >
                             <PinInputField onChange={(e) => setOtp1(e.target.value)} />
                             <PinInputField onChange={(e) => setOtp2(e.target.value)} />
                             <PinInputField onChange={(e) => setOtp3(e.target.value)} />

@@ -40,7 +40,7 @@ const LoginMobileNumber = () => {
         <Text color='grey'>We will send you the 6 digits verification code </Text>
       </Box>
       <Box textAlign="center" paddingTop={"30px"}>
-        <Input size='md' width={"40%"} placeholder="Enter your Mobile Number" type={"number"} onChange={(e) => setNumber(e.target.value)} />
+        <Input size='md' autoFocus="true" width={"40%"} placeholder="Enter your Mobile Number" type={"number"} onChange={(e) => setNumber(e.target.value)} />
         <Box paddingTop={"30px"}>
           <Button background={'#ff7878'} color="white" onClick={handleSubmit}>Send Code</Button>
         </Box>
