@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import AllRoutes from './Components/AllRoutes';
 import { Toaster } from 'react-hot-toast';
+import Navbar from './Pages/Navbar'
 
 function App() {
   return (
     <div className="App">
-      <AllRoutes/>
-      <Toaster/>
+      <Navbar />
+      <AllRoutes />
+      <Toaster />
     </div>
   );
 }

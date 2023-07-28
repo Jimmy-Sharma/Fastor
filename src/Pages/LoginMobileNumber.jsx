@@ -33,6 +33,7 @@ const LoginMobileNumber = () => {
     }
   }
   return (
+    <>
     <Box>
       <Box paddingTop={"10%"} >
         <Text fontSize='2xl' as='b' >Enter Your Mobile Number</Text>
@@ -45,6 +46,7 @@ const LoginMobileNumber = () => {
         </Box>
       </Box>
     </Box>
+    </>
   )
 }
 

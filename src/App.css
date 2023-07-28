@@ -1,6 +1,41 @@
+:root {
+  --bg1:#29AAE1;
+  --bg2:#00C893;
+  --bg3:#1a161f;
+  --bg4:#528070;
+  --bg5:#3d404d;
+  --bg6:#0f0f0f;
+  --bg7:#cec7c7;
+  --bg8:#e2dede;
+ }
+ 
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
   text-align: center;
 }
+
+.box-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 20px;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+/* Single column grid template for medium and smaller screens */
+
+@media ( max-width:900px) {
+  .box-container {
+    grid-template-columns: 49% 49%;
+  }
+}
+
+@media (max-width: 480px) {
+  .box-container {
+    grid-template-columns: 100%;
+  }
+}
+
